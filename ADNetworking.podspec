@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ADNetworking"
-  s.version      = "2"
+  s.version      = "3"
   s.summary      = "ADNetworking."
   s.description  = <<-DESC
                     this is ADNetworking
