@@ -9,5 +9,8 @@
 #ifndef ADNetworking_h
 #define ADNetworking_h
 
+#import "ADHttpBaseApi.h"
+#import "ADNetworkingProxy.h"
+#import "ADURLResponse.h"
 
 #endif /* ADNetworking_h */

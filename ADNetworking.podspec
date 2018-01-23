@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ADNetworking"
-  s.version      = "1"
+  s.version      = "2"
   s.summary      = "ADNetworking."
   s.description  = <<-DESC
                     this is ADNetworking
@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
   s.requires_arc = true
 
+  s.dependency "AFNetworking"
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "CTNetworking"
   # s.dependency "CTAPIManagers"
   # s.dependency "CTMediator"
 
